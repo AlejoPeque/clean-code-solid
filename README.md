@@ -1,4 +1,4 @@
-# Clean Code - SOLID 🫧
+# Clean Code - SOLID Principles 🧼
 
 ## Deuda Técnica 🧾
 
