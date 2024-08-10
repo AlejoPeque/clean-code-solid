@@ -19,7 +19,9 @@ La falta de calidad en el código de un proyecto de software se traduce en una d
 - **Revisión de código**: Asegurar que el código cumple con los estándares de calidad.
 - **Documentación**: Asegurar que el código es fácil de entender.
 
-## Convencione de Nombres de Variables (Pronunciables y Expresivos)
+## Convenciones de Nombres de Variables (Pronunciables y Expresivos)
+
+Es importante que los nombres de las variables sean pronunciables y expresivos para que el código sea fácil de leer y entender.
 
 ```Javascript
 // Mal
