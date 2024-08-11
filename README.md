@@ -2,9 +2,9 @@
 
 ## Indice 📚
 
-- [Deuda Técnica](#Deuda-Técnica)
-- [Convenciones de Nombres de Variables (Pronunciables y Expresivos)](<#Convenciones-de-Nombres-de-Variables-(Pronunciables-y-Expresivos)>)
-- [Principio DRY (Don't Repeat Yourself)](<#Principio-DRY-(Don't-Repeat-Yourself)>)
+- [Deuda Técnica 🧾](#deuda-técnica)
+- [Convenciones de Nombres de Variables (Pronunciables y Expresivos) 📝](#convenciones-de-nombres-de-variables-pronunciables-y-expresivos)
+- [Principio DRY (Don't Repeat Yourself)](#principio-dry-dont-repeat-yourself)
 
 ## Deuda Técnica 🧾
 
