@@ -1,5 +1,11 @@
 # Clean Code - SOLID Principles 🧼
 
+## Indice 📚
+
+- [Deuda Técnica](#Deuda-Técnica)
+- [Convenciones de Nombres de Variables (Pronunciables y Expresivos)](<#Convenciones-de-Nombres-de-Variables-(Pronunciables-y-Expresivos)>)
+- [Principio DRY (Don't Repeat Yourself)](<#Principio-DRY-(Don't-Repeat-Yourself)>)
+
 ## Deuda Técnica 🧾
 
 La falta de calidad en el código de un proyecto de software se traduce en una deuda técnica que se acumula con el tiempo. Esta deuda técnica se traduce en un costo de mantenimiento y evolución del software que se incrementa con el tiempo. La deuda técnica se puede reducir con la aplicación de buenas prácticas de programación y diseño de software.
@@ -167,6 +173,6 @@ const getPayAmount = ({
 };
 ```
 
-## Principio DRy (Don't Repeat Yourself) 🚫
+## Principio DRY (Don't Repeat Yourself) 🚫
 
 _"Si quieres ser un programador productivo esfuérzate en escribir código legible"_
