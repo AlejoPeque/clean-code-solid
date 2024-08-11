@@ -23,7 +23,51 @@ La falta de calidad en el código de un proyecto de software se traduce en una d
 
 Es importante que los nombres de las variables sean pronunciables y expresivos para que el código sea fácil de leer y entender.
 
+### Tipos de variables 📊
+
+- UpperCamelCase
+  - Classes
+- lowerCamelCase
+  - Variables
+  - Funciones
+  - Métodos
+  - Parámetros
+  - Propiedades
+  - Objetos
+  - Arrays
+  - Boolean
+  - Numbers
+  - Strings
+- UPPERCASE
+  - Constantes
+- snake_case
+  - Variables
+  - Funciones
+  - Métodos
+  - Parámetros
+  - Propiedades
+  - Objetos
+  - Arrays
+  - Boolean
+  - Numbers
+  - Strings
+
+### Reglas en bloques de código 📌 (if, else, for, while, funciones, clases, etc)
+
+- Simplicidad es fundamental
+- Funciones de tamaño reducido
+- Funciones de una sola linea sin causar complejidad
+- Funciones con un solo proposito
+- Menos de 20 lineas
+- Menos de 3 parametros por función, si lo supera se debe crear un interface
+- Evitar el uso del "else"
+- Evitar el uso de "switch"
+- Priorizar el uso de la condicion ternaria "?"
+
+### Ejemplos de nombres de variables 📝
+
 ```Javascript
+
 // Mal
 const n = 54;
 const cat = 't-shirt';
@@ -75,4 +119,54 @@ sendEmailIfFielsValid();
 createUser();
 updateUser();
 sendEmail();
+
+// Mal - Classes
+class Manager {};
+class Data {};
+class Info {};
+class Individual {};
+class Processor {};
+class SpecialMonsterView {};
+
 ```
+
+### Ejemplo de una funcion refactorizada 📈
+
+```Javascript
+// Mal
+const getPayAmount = ({ isDead = false, isSeparated = true, isRetired = false }) => {
+    let result;
+    if ( isDead ) {
+        result = 1500;
+    } else {
+        if ( isSeparated ) {
+            result = 2500;
+        } else {
+            if ( isRetired ) {
+                result = 3000;
+            } else {
+                result = 4000;
+            }
+        }
+    }
+
+    return result;
+}
+
+// Bien
+const getPayAmount = ({
+    isDead = false,
+    isSeparated = true,
+    isRetired = false,
+}): number => {
+    if (isDead) return 1500;
+
+    if (isSeparated) return 2500;
+
+    return isRetired ? 3000 : 4000;
+};
+```
+
+## Principio DRy (Don't Repeat Yourself) 🚫
+
+_"Si quieres ser un programador productivo esfuérzate en escribir código legible"_

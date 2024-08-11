@@ -22,9 +22,9 @@
 
   // Variables booleanas de un video juego
   const jump = false;
-  const isJumping = jump;
+  const canJump = jump;
   const run = true;
-  const isRunning = run;
+  const canRun = run;
   const noTieneItems = true;
   const hasItems = noTieneItems;
   const loading = false;
@@ -49,14 +49,14 @@
   const getBooks = book;
 
   // obtiene libros desde un URL
-  function BooksUrl(u: string) {
-    throw new Error("Function not implemented." + u);
+  function BooksUrl(url: string) {
+    throw new Error("Function not implemented." + url);
   }
   const getBooksFromUrl = BooksUrl;
 
   // obtiene el área de un cuadrado basado en sus lados
-  function areaCuadrado(s: number) {
-    throw new Error("Function not implemented." + s);
+  function areaCuadrado(lados: number) {
+    throw new Error("Function not implemented." + lados);
   }
   const squareArea = areaCuadrado;
 
