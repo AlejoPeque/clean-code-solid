@@ -1,5 +1,6 @@
 import "./style.css";
-import "./clean-code/04-refactor";
+// import "./clean-code/06-classes-a";
+import "./test/test";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 

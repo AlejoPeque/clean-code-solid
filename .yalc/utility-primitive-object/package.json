@@ -1,0 +1,28 @@
+{
+  "name": "utility-primitive-object",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/utility-primitive-object.umd.cjs",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/utility-primitive-object.js",
+      "export": "./dist/utility-primitive-object.umd.cjs"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext .ts",
+    "check:types": "tsc --noEmit",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest --watch",
+    "test:mutation": "stryker run"
+  },
+  "yalcSig": "52b619b8842318d2bdf879294ddd85dd"
+}

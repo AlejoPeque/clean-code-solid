@@ -1,11 +1,5 @@
 # Clean Code - SOLID Principles 🧼
 
-## Indice 📚
-
-- [Deuda Técnica 🧾](#deuda-técnica)
-- [Convenciones de Nombres de Variables (Pronunciables y Expresivos) 📝](#convenciones-de-nombres-de-variables-pronunciables-y-expresivos)
-- [Principio DRY (Don't Repeat Yourself)](#principio-dry-dont-repeat-yourself)
-
 ## Deuda Técnica 🧾
 
 La falta de calidad en el código de un proyecto de software se traduce en una deuda técnica que se acumula con el tiempo. Esta deuda técnica se traduce en un costo de mantenimiento y evolución del software que se incrementa con el tiempo. La deuda técnica se puede reducir con la aplicación de buenas prácticas de programación y diseño de software.
@@ -176,3 +170,14 @@ const getPayAmount = ({
 ## Principio DRY (Don't Repeat Yourself) 🚫
 
 _"Si quieres ser un programador productivo esfuérzate en escribir código legible"_
+
+### ¿Qué es el principio DRY? 🤔
+
+El principio DRY (Don't Repeat Yourself) es un principio de diseño de software que promueve la reducción de la duplicación de código. El principio DRY se basa en la idea de que cada pieza de conocimiento debe tener una representación única y no ambigua dentro de un sistema.
+
+### ¿Por qué es importante el principio DRY? 📈
+
+- **Facilita el mantenimiento del código**: Al reducir la duplicación de código, se reduce la cantidad de código que se debe mantener.
+- **Facilita la evolución del código**: Al reducir la duplicación de código, se facilita la evolución del código.
+- **Facilita la comprensión del código**: Al reducir la duplicación de código, se facilita la comprensión del código.
+- **Facilita la reutilización del código**: Al reducir la duplicación de código, se facilita la reutilización del código.

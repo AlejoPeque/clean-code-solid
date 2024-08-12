@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "utility-primitive-object": {
+      "version": "0.0.1",
+      "signature": "52b619b8842318d2bdf879294ddd85dd",
+      "file": true
+    }
+  }
+}
